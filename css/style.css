@@ -31,6 +31,7 @@ body {
 #menu-head {
 	text-align: center;
 	padding: 15px 15px 15px 15px;
+	font-weight: bold;
 }
 #chicken-header{
 	width: 100%;
@@ -40,6 +41,8 @@ body {
 		color: white;
 		padding: 15px;
 		border-radius: 10px;
+		box-shadow: 3px 3px 8px 2px grey;
+		margin-bottom:50px;
 		/*margin-left: 25px;
 		margin-right: 25px;*/
 }
@@ -56,7 +59,7 @@ body {
 ul {
 	background-color:#26314D;
 }
-header{
+/*header{
 	position: sticky;
 	top: 0px;
-}
+}*/
