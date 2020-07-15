@@ -3,7 +3,8 @@
 body {
 	font-family: 'Roboto', sans-serif;
 }
-header{
+#page-header{
+	color: #252F47;
 }
 .navbar-brand > a {
 	margin-bottom: 0px;
@@ -12,14 +13,21 @@ header{
 .navbar.navbar-expand-lg {
 	background-color: #C7C8C3;
 	border: 1px solid black;
+	
 }
+/*button span {
+	color: #26314D;
+}*/
 #navbarSupportedContent li {
 	font-size: 1.2em;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid white;
+	text-align: center;
+	color: white;
+
 }
-#navbarSupportedContent li:nth-child(3){
+/*#navbarSupportedContent li:nth-child(3){
 	border-bottom: none;
-}
+}*/
 #menu-head {
 	text-align: center;
 	padding: 15px 15px 15px 15px;
@@ -44,4 +52,11 @@ header{
 
 .navbar.navbar-expand-lg {
 	padding-bottom: 0px;
+}
+ul {
+	background-color:#26314D;
+}
+header{
+	position: sticky;
+	top: 0px;
 }
